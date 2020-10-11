@@ -11,6 +11,6 @@ print(name_costumers)
 """
 Result
 
-['Miguel Diaz', 'Jairo Pacheco', 'Angel Diaz', 'Carlos Antonio']
+['Andrew ng', 'Jairo Pacheco', 'Angel Diaz', 'Carlos Antonio']
 
 """
