@@ -1,4 +1,4 @@
-# Ejemplos de algunas caracteristicas nuevas de python 3.9
+# News python3.9
 
 Este proyecto contiene algunos ejemplos de algunas nuevas features de python 3.9 o bien correciones a algunos bugs, la idea es ir agrando algunos ejemplos en diferentes niveles de complejidad com ejemplos sencillos
 
