@@ -39,3 +39,10 @@ Result:
 {'name': 'Andrew', 'age': 39, 'email': 'andrew@domain.com', 'is_online': True}
 
 """
+
+a = {'farhad':1, 'blog':2, 'python':3}
+b = {'farhad':'malik', 'topic':'python3.9'} 
+
+a |= b
+
+print(a)
