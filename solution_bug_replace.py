@@ -1,8 +1,7 @@
 result_replace = ""
 
-# print 'prefix' it is  ok
+# Imprime 'prefix' si todo está bien
 print(result_replace.replace("", "prefix"))
 
-# print 'prefix' it is ok, but in python < 3.9 print empty string
-
+# Imprime 'prefix' si todo está bien, en versiones inferiores a 3.9 imprime una cadena vacía
 print(result_replace.replace("", "prefix", 1))

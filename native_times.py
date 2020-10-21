@@ -1,15 +1,17 @@
-from datetime import datetime
-from zoneinfo import ZoneInfo
+from datetime import datetime as dt
+from zoneinfo import ZoneInfo as zi
 
-"""
-Use of zoneinfo module native to timezone
-"""
-
-current_time = datetime.now()
-# print current time in my time zone
+# Imprime la hora actual en su zona horaria
+current_time = dt.now()
 print(current_time)
 
-current_time_angeles = datetime.now(ZoneInfo("America/Los_Angeles"))
+# Imprime la hora actual en cualquier zona horaria
+current_time_berlin = dt.now(zi("Europe/Berlin"))
+print(current_time_berlin)
 
-# print  current time in any time zone
-print(current_time_angeles)
+"""
+Salida
+
+2020-10-20 19:19:01.081683
+2020-10-21 02:19:01.082124+02:00
+"""

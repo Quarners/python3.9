@@ -1,51 +1,33 @@
-# news type hints native whithout  import  Dict or  List by typing
+def print_content_list(authors: list[str]):
+    for author in authors:
+        print(author)
 
+def print_content_dict(author: dict):
+    for key_author in author.keys():
+        print(author[key_author])
 
-def print_content_list(costumers: list[str]):
-    """
-    Type list[str] allowed whithout use typing module
-    """
-    for costumer in costumers:
-        print(costumer)
-
-
-def print_content_dict(costumer: dict):
-    """
-    Type dict allowed whithout use typing module
-    """
-    for key_costumer in costumer.keys():
-        print(costumer[key_costumer])
-
-
-print("Costumer List")
-costumers = ["Mr. Andrew ng", "Jairo Pacheco", "Mr. Angel Diaz", "Carlos Antonio"]
-
-print_content_list(costumers=costumers)
-
-print()
-print("Costumer Dict")
+print("Author List")
+authors = ["José Saramago", "Lord Byron", "Carlos Fuentes"]
+print_content_list(authors=authors)
 
 """
-Result:
-Costumer List
-Mr. Andrew ng
-Jairo Pacheco
-Mr. Angel Diaz
-Carlos Antonio
+Salida:
 
+Author List
+José Saramago
+Lord Byron
+Carlos Fuentes
 """
 
-costumer_dict = {"name": "Andrew ng", "email": "andrewng@doamin.com", "age": 40}
-
-print_content_dict(costumer=costumer_dict)
-
+print("\nAuthor Dict")
+author_dict = {"name": "José Saramago", "country": "Portugal", "is_Nobel": True}
+print_content_dict(author=author_dict)
 
 """
-Result:
+Salida:
 
-Costumer Dict
-Andrew ng
-andrewng@doamin.com
-40
-
+Author Dict
+José Saramago
+Portugal
+True
 """

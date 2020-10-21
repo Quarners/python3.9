@@ -1,16 +1,13 @@
-costumers = ["Mr. Andrew ng", "Jairo Pacheco", "Mr. Angel Diaz", "Carlos Antonio"]
-
 name_costumers = []
+costumers = ["Mr. Max Demian", "Jairo Castañeda"]
+
 for costumer in costumers:
-
     name_costumers.append(costumer.removeprefix("Mr. "))
-
 
 print(name_costumers)
 
 """
-Result
+Salida
 
-['Andrew ng', 'Jairo Pacheco', 'Angel Diaz', 'Carlos Antonio']
-
+['Max Demian', 'Jairo Castañeda']
 """
